@@ -443,11 +443,12 @@ p {
 }
 
 img {
-      text-align: center;
       display: block;
-      margin: 3rem auto;
       width: 45%;
       height: auto;
+      text-align: center;
+      margin: 3rem auto;
+      border-radius: 4px;
   }
 
 
