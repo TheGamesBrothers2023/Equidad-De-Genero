@@ -128,9 +128,10 @@ are based on 10px sizing. So basically 1.5rem = 15px :) */
 html {
   font-size: 62.5%; }
 body {
+  overflow-x: hidden;
   font-size: 1.5em; /* currently ems cause chrome bug misinterpreting rems on body element */
   line-height: 1.6;
-  font-weight: 400;
+  font-size: 16.5px; 
   font-family: "DM Sans", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
   background-color: #f2f2f2;
   color: #333; }
@@ -400,6 +401,11 @@ header {
   text-align: center;
   border-bottom-left-radius: 30px;
   border-bottom-right-radius: 30px;
+}
+
+header h1 {
+  margin-right: 5.2rem;
+  margin-left: 5.2rem
 }
 
 header p {
