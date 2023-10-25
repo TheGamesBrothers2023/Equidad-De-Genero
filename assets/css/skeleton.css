@@ -188,12 +188,12 @@ a:hover {
   transition: 0.2s;
 }
 
-li a {
-  max-width: 10px;
+.reference {
+  display: block;
+  max-width: 90%;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-  border: 1px solid #ccc;
 }
 
 
