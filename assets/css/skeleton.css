@@ -145,7 +145,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 2rem;
   font-weight: 300;
   font-family: "Poppins", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif; }
-h1 { font-weight: 700; font-size: 4.0rem; line-height: 1.2;  letter-spacing: -.1rem;}
+h1 { font-weight: bold; font-size: 4.0rem; line-height: 1.2;  letter-spacing: -.1rem;}
 h2 {
   border-bottom: 1px solid #ccc;
   padding: 20px 0;
@@ -441,21 +441,8 @@ header h1, header p {
 }
 
 header p {
-  font-weight: 700;
+  font-weight: bold;
   margin-top: 10vw;
-}
-
-.article {
-  max-width: 800px;
-  padding: 20px;
-  background-color: #fff;
-  box-shadow: 0 2px 4px #00000035;
-  border-radius: 30px;
-}
-
-.indice {
-    list-style-type: none;
-    padding: 0;
 }
 
 img {
@@ -467,9 +454,33 @@ img {
   border-radius: 8px;
 }
 
+.article {
+  max-width: 800px;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px #00000035;
+  border-radius: 30px;
+}
+
+.index {
+    list-style-type: none;
+    padding: 0;
+}
+
+.distintivo {
+  background-color: #000;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+
 .acc-tools {
   display: none;
 }
+
+
 
 /* Clearing
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
