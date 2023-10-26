@@ -189,17 +189,22 @@ a:hover {
   transition: 0.2s;
   padding: 5px;
 }
+
 .resource {
   font-size: unset !important; 
   padding: unset !important;
 }
 
 .reference {
-  display: block;
-  max-width: 90%;
+  display: inline-block !important;
+  max-width: 90% !important;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+}
+
+.reference:hover {
+  font-weight: bolder;
 }
 
 
