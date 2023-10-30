@@ -172,6 +172,7 @@ h6 { font-size: 1.5rem; line-height: 1.6;  letter-spacing: 0; }
 p {
   margin-top: 0;
   line-height: 1.6;
+  text-align: justify;
   font-family: "DM Sans", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif; }
 
 
@@ -433,7 +434,7 @@ header {
   user-select: none;
   background: conic-gradient(from 30deg, #FF0000 0%, #FFFF00 33.3%, #00FF00 33.4%, #00FFFF 66.6%, #0000FF 66.7%, #FF00FF 100%, #FF0000 100%);
   margin: 0px;
-  padding: 200px 270px;
+  padding: 150px 270px;
   color: #fff;
   text-shadow: 0px 0px 0.7em rgba(0, 0, 0, 0.7);
   text-align: center;
@@ -457,14 +458,13 @@ header::before {
 }
 
 
-header h1, header p {
+header h1, header h6 {
   margin-right: 5.2rem;
   margin-left: 5.2rem
 }
 
-header p {
-  font-weight: bold;
-  margin-top: 10vw;
+header h6 {
+  font-size: 20px !important;
 }
 
 img {
